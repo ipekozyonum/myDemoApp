@@ -53,7 +53,7 @@ public class App
             //System.out.println(req.queryParams("input2"));
 
             String input1 = req.queryParams("input1");
-            String input2 = req.queryParams("input2s");
+            String input2 = req.queryParams("input2");
             java.util.Scanner sc1 = new java.util.Scanner(input1);
             java.util.Scanner sc2 = new java.util.Scanner(input2);
             sc1.useDelimiter("[;\r\n]+");
@@ -71,7 +71,7 @@ public class App
                 int value = Integer.parseInt(sc2.next().replaceAll("\\s",""));
                 inputList2.add(value);
             }
-            System.out.println(inputList);
+            System.out.println(inputList2);
 
 
 
